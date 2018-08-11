@@ -1,0 +1,243 @@
+/* Экстрамалые девайсы («телефоны», < 576px) */
+@media (max-width: 575.98px) {}
+
+/* Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {
+    .block2 .title{
+        width: 100%;
+    }
+
+}
+
+/* Средние девайсы («таблетки», < 992px)  */
+@media (max-width: 991.98px) {}
+
+/* Большие девайсы (большие десктопы, < 1200px) */
+@media (max-width: 1199.98px) {
+    .block5 .image{
+        display: none;
+    }
+
+    .myh1{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .myh2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .myh3{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    #header, .block1, .block2, .block3, .block4, .block5, .block6,.block6 {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #header .container, .block1 .container, .block2 .container, .block3 .container, 
+    .block4 .container, .block5 .container, .block6 .container,
+    .block6 .form .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #header .header_base .image{
+        align-items: flex-end;
+    }
+
+    #header .unvisible{
+        display: block;
+    }
+    #header .visible{
+        display: none;
+    }
+    
+    .block2_card{
+        display: flex;
+        flex-direction: row;
+        margin-right: 0 ;
+        width: 100%;
+        max-width: 749px;
+    }
+
+    .block2_card .img,{
+        padding-right: 23px;
+        width: 50%;
+        max-width: 350px;
+        height: auto;
+    }    
+
+    .block2_card .text{
+        width: 50%;
+        margin: auto 16px;
+    }
+
+    .block3{
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    .block4{
+        padding-bottom: 20px;
+        padding-top: 30px;
+        background: url(../images/block4_bg_md.png)no-repeat center;
+        background-size: cover;
+    }
+
+    .block4 .content .myh2{
+        margin-bottom: 30px;
+    }
+
+    .block4 .content menu{
+        margin-bottom: 35px;
+    }
+
+    .block4 .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block4 .content, .block4 .img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .block5{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .block5 .image{
+        display: none;
+    }
+
+    .block6{
+        background: url(../images/block4_bg_md.png)no-repeat center;
+        background-size: cover;
+    }
+    .block6 .row .block6_card{
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+/* Малые девайсы («ландшафтные телефоны», >= 576px) */
+@media (min-width: 576px) {}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    /* .myh1{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .myh2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .myh3{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    #header, .block1, .block2, .block3, .block4, .block5, .block6,.block6 {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #header .container, .block1 .container, .block2 .container, .block3 .container, 
+    .block4 .container, .block5 .container, .block6 .container,
+    .block6 .form .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    #header .img{}
+
+    .block2_card{
+        display: flex;
+        flex-direction: row;
+        margin-right: 0 ;
+        width: 100%;
+        max-width: 749px;
+    }
+
+    .block2_card .img,{
+        padding-right: 23px;
+        width: 50%;
+        max-width: 350px;
+        height: auto;
+    }    
+
+    .block2_card .text{
+        width: 50%;
+        margin: auto 16px;
+    }
+
+    .block3{
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    .block4{
+        padding-bottom: 20px;
+        padding-top: 30px;
+        background: url(../images/block4_bg_md.png)no-repeat center;
+        background-size: cover;
+    }
+
+    .block4 .content .myh2{
+        margin-bottom: 30px;
+    }
+
+    .block4 .content menu{
+        margin-bottom: 35px;
+    }
+
+    .block4 .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block4 .content, .block4 .img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .block5{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .block5 .image{
+        display: none;
+    }
+
+    .block6{
+        background: url(../images/block4_bg_md.png)no-repeat center;
+        background-size: cover;
+    }
+    .block6 .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        min-width: 260px;
+    } */
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+    .block2_card img{
+        width: 100%;
+        margin-bottom: 26px;
+    }
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {}
