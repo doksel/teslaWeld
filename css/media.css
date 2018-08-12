@@ -41,6 +41,18 @@
     .block6 .form .row{
         margin: 0;
     }
+    .block4{
+        background: url(../images/block4/block4_bg_sm.png)no-repeat center;
+        background-size: cover;
+    }
+    .block6{
+        background: url(../images/block6/block6_bg_sm.png)no-repeat center;
+        background-size: cover;
+    }
+    .block3 .form, .block6 .form{
+        background: url(../images/block3/block3_bg_sm.png)no-repeat center;
+        background-size: cover;
+    }
 }
 
 /* Средние девайсы («таблетки», < 992px)  */
@@ -118,8 +130,6 @@
     .block4{
         padding-bottom: 20px;
         padding-top: 30px;
-        background: url(../images/block4_bg_md.png)no-repeat center;
-        background-size: cover;
     }
 
     .block4 .content h2{
@@ -157,8 +167,8 @@
         display: none;
     }
 
-    .block6{
-        background: url(../images/block4_bg_md.png)no-repeat center;
+    .block4, .block6{
+        background: url(../images/block4/block4_bg_md.png)no-repeat center;
         background-size: cover;
     }
     .block6 .row .block6_card{
@@ -184,7 +194,6 @@
     }
     .block6 .row .block6_card{
         float: left;
-        /* display: inline-block; */
     }
 }
 
